@@ -175,6 +175,6 @@ tpl = "{tla} {ound}system"
 
 def gen_str():
   while True:
-    yield tpl.format(tla=choice(tlas), ound=choice(ound_words))
+    yield tpl.format(tla=choice(tlas), ound=choice(ound_words).title())
 
 generator = gen_str()
