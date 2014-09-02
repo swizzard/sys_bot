@@ -1,0 +1,6 @@
+*.html
+__pycache__/
+nltk/
+venv/
+.env
+tlas.txt
